@@ -1,4 +1,12 @@
-const NextTrack = ({ height, width, color, style = {}, className = "" }) => {
+import { IconProps } from "../../types";
+
+const NextTrack = ({
+  height,
+  width,
+  color,
+  style = {},
+  className = "",
+}: IconProps) => {
   return (
     <svg
       className={className}

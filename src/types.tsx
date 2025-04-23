@@ -11,3 +11,12 @@ export interface Playlist {
   year: number;
   tracks: Track[];
 }
+
+export interface IconProps {
+  height: string;
+  width: string;
+  color: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  style?: { [key: string]: any };
+  className?: string;
+}

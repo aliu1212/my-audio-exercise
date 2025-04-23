@@ -1,4 +1,12 @@
-const Pause = ({ height, width, color, style = {}, className = "" }) => {
+import { IconProps } from "../../types";
+
+const Pause = ({
+  height,
+  width,
+  color,
+  style = {},
+  className = "",
+}: IconProps) => {
   return (
     <svg
       className={className}
